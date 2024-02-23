@@ -61,7 +61,7 @@
     },
     "SAVE_STATUS_FROM": {
       "description": "Contacts you want bot to save their status.",
-      "value": "254702365210, 254786273945"
+      "value": "254702365210,254786273945"
     }, 
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
@@ -128,7 +128,7 @@
     },
     "MODE": {
       "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-      "value": "private"
+      "value": "public"
     },
       "GURL": {
       "description": ".",
@@ -152,8 +152,8 @@
       "required": false 
     },
     "PACK_AUTHER": {
-      "description": "≛ Willis ≛",
-      "value": "",
+      "description": "Sticker author name",
+      "value": "≛ Willis",
       "required": false 
     }
   }, 
