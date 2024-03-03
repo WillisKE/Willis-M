@@ -11,43 +11,11 @@
       "description": "Name of Bot Owner",    
       "value": "≛ Willis",
       "required" :true
-    },   
-     
-    "WELCOME": {
-      "description": "put 'false' or 'true' to enable & disable WELCOME ",
-      "value": "false",
-      "required" :false
-    },
-     
-    "GOODBYE": {
-      "description": "put 'false' or 'true' to enable & disable GOODBYE ",
-      "value": "false",
-      "required" :false
     },
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
       "value": "ωιℓℓιѕ м∂"
-    }, 
-    "TZ": {
-      "description": "Put TIME_ZONE according to your location",
-      "required" :false,    
-      "value": "Africa/Nairobi"
-    }, 
-    "WARN_COUNT": {
-      "description": " Warn count for users to kick/block when warn limit exceed!",
-      "required" :false,    
-      "value": "3"
-    }, 
-    "READ_COMMAND": {
-      "description": " Read bot cmds",
-      "required" :false,    
-      "value": "false"
-    }, 
-    "AUTO_SAVE_STATUS": {
-      "description": " Auto save whatsapp status", 
-      "required" :false,   
-      "value": "false"
     }, 
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
@@ -114,21 +82,7 @@
     },
     "THEME": {
       "description": "Theme of your bot, how it looks like.",
-      "value": "WILLIS"
-    },
-    "STYLE": {
-      "description": "Style of your bot, how interface looks",
-      "value": "3"
-    },
-    "PACK_NAME": {
-      "description": "Put Sticker Pack_Name.",
-      "value": "≛",
-      "required": false 
-    },
-    "PACK_AUTHER": {
-      "description": "Sticker author name",
-      "value": "ωιℓℓιѕ кє",
-      "required": false 
+      "value": "ADAM"
     }
   }, 
   "addons": [
