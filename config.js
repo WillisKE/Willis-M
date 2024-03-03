@@ -18,7 +18,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
 global.github=process.env.GITHUB|| "https://github.com/WillisKE/Willis-MD";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaSgyryFi8xYD7QLMB2s";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaSgyryFi8xYD7QLMB2s" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/39090e5d6740b6efadfa5.jpg" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/5af173a46962641ecd1e2.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -85,7 +85,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "WILLIS",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "ADAM",
 
 
 
