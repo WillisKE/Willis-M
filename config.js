@@ -16,8 +16,8 @@ global.DATABASE_URI = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
 global.github=process.env.GITHUB|| "https://github.com/WillisKE/Willis-MD";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaSgyryFi8xYD7QLMB2s";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaSgyryFi8xYD7QLMB2s" ; 
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/BIZqcGOOnzEIdmc6CsI6Zv";
+global.website=process.env.GURL || "https://chat.whatsapp.com/BIZqcGOOnzEIdmc6CsI6Zv" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/5af173a46962641ecd1e2.jpg" ; // SET LOGO FOR IMAGE 
 
 
@@ -59,7 +59,7 @@ global.scan = "https://qr-scan.giftedtechnexus.co.ke/";
 
 module.exports = {
 
-  menu: process.env.MENU || "2", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Willis Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "3", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Willis Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
@@ -124,7 +124,7 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
  
 
 // ========================= [ Disables in V.1.2.8 ] ===============================\\  
-  //style : process.env.STYLE || "2",  // put '1' & "2" here to check bot styles
+  //style : process.env.STYLE || "3",  // put '1' & "2" here to check bot styles
   //readmessage:process.env.READ_MESSAGE|| "false",
   //warncount: process.env.WARN_COUNT || 5,
   //userImages:process.env.USER_IMAGES|| "text",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
