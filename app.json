@@ -114,7 +114,7 @@
     },
     "THEME": {
       "description": "Theme of your bot, how it looks like.",
-      "value": "ADAM"
+      "value": "WILLIS"
     },
     "STYLE": {
       "description": "Style of your bot, how interface looks",
